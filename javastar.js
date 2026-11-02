@@ -39,7 +39,7 @@ for (let g = 0; g < groupCount; g++) {
  const video = document.createElement("video");
  video.crossOrigin = "anonymous";
  video.src =
-  "https://githubusercontent.com/Dasha0000000/fallingstar/raw/refs/heads/main/8af8334af7a142e4ac8d052455ee00f9.webm";
+  "https://raw.githubusercontent.com/Dasha0000000/fallingstar/main/8af8334af7a142e4ac8d052455ee00f9.webm";
  video.loop = true;
  video.muted = true;
  video.playbackRate = 0.010 + Math.random() * 1.0;
@@ -92,7 +92,7 @@ for (let g = 0; g < groupCount; g++) {
 
 const hdrLoader = new HDRLoader();
 const hdrTexture = hdrLoader.load(
- "https://raw.githubusercontent.com/Dasha0000000/fallingstar/refs/heads/main/qwantani_mid_morning_puresky_2k.hdr",
+ "https://raw.githubusercontent.com/Dasha0000000/fallingstar/refs/heads/main/hdrqwantani_mid_morning_puresky_2k.hdr",
  () => {
   hdrTexture.mapping = THREE.EquirectangularReflectionMapping;
   hdrTexture.colorSpace = THREE.SRGBColorSpace;

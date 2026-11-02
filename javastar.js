@@ -92,7 +92,7 @@ for (let g = 0; g < groupCount; g++) {
 
 const hdrLoader = new HDRLoader();
 const hdrTexture = hdrLoader.load(
- "https://raw.githubusercontent.com/Dasha0000000/fallingstar/refs/heads/main/hdrqwantani_moon_noon_puresky_1k.hdr",
+"https://raw.githubusercontent.com/Dasha0000000/fallingstar/refs/heads/main/qwantani_moon_noon_puresky_1k.hdr",
  () => {
   hdrTexture.mapping = THREE.EquirectangularReflectionMapping;
   hdrTexture.colorSpace = THREE.SRGBColorSpace;
